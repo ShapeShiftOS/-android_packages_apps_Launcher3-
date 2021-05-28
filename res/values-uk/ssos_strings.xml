@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Показати додаток Google</string>
+
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Коли ви проводите зліва від домашнього екрана</string>
+
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Коли ви проводите cправа від домашнього екрана</string>
+
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Відображати підписи значків на робочому столі</string>
+    <string name="drawer_show_labels">Відображати підписи значків в меню</string>
+    <string name="show_labels_landscape">Відображати підписи значків в альбомном режимі</string>
+
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Пропозиції</string>
+    <string name="suggestion_pref_screen_desc">Для пропозицій всіх додатків і головного екрана</string>
+
+    <!-- Edit workspace -->
+    <string name="settings_edit_allow_title">Дозволити редактування</string>
+    <string name="settings_edit_allow_summary_on">Значки та віджети можно додавати, видаляти і переміщувати на головному екрані.</string>
+    <string name="settings_edit_allow_summary_off">Значки та віджети не можна додавати, видаляти і переміщати на головному екрані.</string>
+    <string name="settings_edit_widgets_error">Неможливо додавати віджети на головний екран.</string>
+
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Жест двійного доторкання</string>
+    <string name="pref_dt_gesture_summary">Двічі торкніться пустого місця, щоб вимкнути живлення</string>
+
+    <!-- AppInfo -->
+    <string name="app_info_subtext">Потяніть вниз для закриття</string>
+    <string name="placeholder_string">завантаження...</string> <!-- Used for preference height loading. -->
+    <string name="app_info_icon_pack">Набір іконок</string>
+    <string name="app_info_icon_pack_none">Немає</string>
+    <string name="app_info_source">Джерело</string>
+    <string name="app_info_source_unknown">Невідомий</string>
+    <string name="app_info_last_update">Останнє оновлення</string>
+    <string name="app_info_version">Версія</string>
+    <string name="app_info_more">Ще</string>
+
+    <!-- Preference default value -->
+    <string name="pref_value_default">За замовченням</string>
+
+    <string name="state_loading">Застосування\u2026</string>
+
+    <!-- Gradients on Workspace/Hotseat -->
+    <string name="workspace_gradient_title">Показувати градієнт зверху</string>
+    <string name="workspace_gradient_summary">Увімкнення тонкого градієнта від рядку стану</string>
+    <string name="hotseat_gradient_title">Показувати градієнт верха</string>
+    <string name="hotseat_gradient_summary">Увімкнення тонкого градієнта від нижнього края</string>
+
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Приховані додатки</string>
+    <string name="trust_apps_auth_manager">Розблокуйте для управління прихованними додатками</string>
+    <string name="trust_apps_loading">Завантаження\u2026</string>
+    <string name="trust_apps_no_lock_error">Будь ласка, налаштуйте захищений екран блокування для обмеження доступа до додатків</string>
+    <string name="trust_apps_help">Допомога</string>
+    <string name="trust_apps_info_hidden">Приховані додатки і їх віджети будуть сховані з робочего стола</string>
+
+    <!-- General -->
+    <string name="settings_title">Налаштування</string>
+
+    <!-- Categories -->
+    <string name="home_category_title">Домашній екран</string>
+    <string name="home_category_summary">Налаштування панелі Google Now і багато іншого</string>
+    <string name="icons_category_title">Іконки</string>
+    <string name="icons_category_summary">Налаштування іконок, їх стилей і багато іншого</string>
+    <string name="app_drawer_category_title">Меню додатків</string>
+    <string name="app_drawer_category_summary">Налаштування меню додатків</string>
+    <string name="misc_category_title">Різне</string>
+    <string name="misc_category_summary">Інші налаштування</string>
+
+    <!-- Icon size -->
+    <string name="icon_size_title">Розмір іконок</string>
+
+</resources>

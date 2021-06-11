@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Pokaż Google Discover</string>
+
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Po przesunięciu w lewo z głównej strony ekranu głównego</string>
+
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Po przesunięciu w prawo z głównej strony ekranu głównego</string>
+    <string name="pref_show_google_now_summary" translatable="false">@string/msg_minus_one_on_left</string>
+
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Pokaż nazwy aplikacji na ekranie głównym</string>
+    <string name="drawer_show_labels">Pokaż nazwy aplikacji w szufladzie</string>
+    <string name="show_labels_landscape">Pokaż nazwy aplikacji w poziomie</string>
+
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Sugestie</string>
+    <string name="suggestion_pref_screen_desc">Sugestie dla wszystkich aplikacji i ekranu głównego</string>
+
+    <!-- Edit workspace -->
+    <string name="settings_edit_allow_title">Zezwalaj na edycję</string>
+    <string name="settings_edit_allow_summary_on">Ikony i widżety mogą być dodawane, usuwane lub przenoszone na ekranie głównym</string>
+    <string name="settings_edit_allow_summary_off">Ikony i widżety nie mogą być dodawane, usuwane lub przenoszone na ekranie głównym</string>
+    <string name="settings_edit_widgets_error">Nie można dodawać widżetów do ekranu głównego</string>
+
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Gest podwójnego stuknięcia</string>
+    <string name="pref_dt_gesture_summary">Stuknij podwójnie w puste miejsce aby zablokować telefon</string>
+
+    <!-- AppInfo -->
+    <string name="app_info_subtext">Przesuń w dół, aby zamknąć informacje o aplikacji.</string>
+    <string name="app_info_version_value">%1$s (%2$d)</string>
+    <string name="placeholder_string">Ładowanie...</string> <!-- Used for preference height loading. -->
+    <string name="app_info_icon_pack">Paczka ikon</string>
+    <string name="app_info_icon_pack_none">Żadna</string>
+    <string name="app_info_source">Źródło</string>
+    <string name="app_info_source_system">Systemowa</string>
+    <string name="app_info_last_update">Ostatnia aktualizacja</string>
+    <string name="app_info_version">Wersja</string>
+    <string name="app_info_more">Więcej</string>
+
+    <!-- Preference default value -->
+    <string name="pref_value_default">Domyślna</string>
+
+    <string name="state_loading">Aplikuję\u2026</string>
+
+    <!-- Gradients on Workspace/Hotseat -->
+    <string name="workspace_gradient_title">Pokaż gradient na górze</string>
+    <string name="workspace_gradient_summary">Włącz subtelny gradient z paska statusu</string>
+    <string name="hotseat_gradient_title">Pokaż gradient na dole</string>
+    <string name="hotseat_gradient_summary">Włącz subtelny gradient z doku ekranu głównego</string>
+
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Ukryte aplikacje</string>
+    <string name="trust_apps_auth_manager">Odblokuj aby zarządzać ukrytymi aplikacjami</string>
+    <string name="trust_apps_loading">Ładowanie\u2026</string>
+    <string name="trust_apps_no_lock_error">Proszę ustawić bezpieczną blokadę ekranu aby ograniczyć dostęp do aplikacji</string>
+    <string name="trust_apps_help">Pomoc</string>
+    <string name="trust_apps_info_hidden">Ukryte aplikacje oraz ich widżety są ukryte z szuflady aplikacji</string>
+
+    <!-- General -->
+    <string name="settings_title">Ustawienia</string>
+
+    <!-- Categories -->
+    <string name="home_category_title">Ekran główny</string>
+    <string name="home_category_summary">Ustaw panel Google Discover i więcej</string>
+    <string name="icons_category_title">Ikony</string>
+    <string name="icons_category_summary">Ustaw styl ikon i więcej</string>
+    <string name="app_drawer_category_title">Szuflada aplikacji</string>
+    <string name="app_drawer_category_summary">Dostosuj swoją szufladę aplikacji</string>
+    <string name="misc_category_title">Różne</string>
+    <string name="misc_category_summary">Inne opcje</string>
+
+    <!-- Icon size -->
+    <string name="icon_size_title">Rozmiar ikon</string>
+
+</resources>

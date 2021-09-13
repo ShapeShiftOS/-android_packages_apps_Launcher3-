@@ -91,4 +91,7 @@
     <!-- Icon size -->
     <string name="icon_size_title">Icon size</string>
 
+    <!-- Launcher restart toast -->
+    <string name="launcher_restart_toast">For all changes to take effect, a launcher restart is required. We\'ll restart the launcher right now.</string>
+
 </resources>
